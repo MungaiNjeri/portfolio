@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    max-width: 1200px;
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 20px 0;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+header nav {
+    float: right;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.hero-section {
+    background: url('https://via.placeholder.com/1200x600') no-repeat center center/cover;
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-section h2 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.hero-section p {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.hero-section .btn {
+    padding: 10px 20px;
+    background: #333;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+section {
+    padding: 60px 0;
+}
+
+.about-section,
+.skills-section,
+.contact-section {
+    background: #f4f4f4;
+}
+
+.projects-section .project {
+    margin-bottom: 40px;
+}
+
+.projects-section .btn {
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+form textarea {
+    height: 150px;
+}
+
+form button {
+    background: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer .social-links a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    header nav ul {
+        text-align: center;
+        float: none;
+    }
+
+    .hero-section {
+        height: 60vh;
+    }
+
+    .hero-section h2 {
+        font-size: 36px;
+    }
+
+    .hero-section p {
+        font-size: 18px;
+    }
+
+    .container {
+        width: 90%;
+    }
+}
+
+.hero-section {
+    background-image: url('https://i.pinimg.com/736x/c2/0a/66/c20a66ae4d597dea5b36ff327912a0f2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+  
